@@ -1,0 +1,31 @@
+.wantListLabel {
+    max-width: 1000px;
+
+    color: #505050;
+    /*文字色*/
+    padding: 0.5em;
+    /*文字周りの余白*/
+    display: inline-block;
+    /*おまじない*/
+    line-height: 1.3;
+    /*行高*/
+    background: #dbebf8;
+    /*背景色*/
+    vertical-align: middle;
+    border-radius: 25px 0px 0px 25px;
+    /*左側の角を丸く*/
+}
+
+#wrap {
+    max-width: 1000px;
+    background: #dbebf8;
+}
+
+#content {
+    width: 800px;
+    float: right;
+}
+
+body {
+    overflow-x: hidden;
+}
